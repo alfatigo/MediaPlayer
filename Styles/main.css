@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.25%;
+}
+
+.container{  
+    margin: 5em;
+}
+
+.movie{    
+    display: block;
+    width: 75%;    
+    margin: 0 auto 
+}
+
+button{
+    display:block;
+    margin: 0 auto ; 
+    min-width: 10em;
+    height: 3em;
+    margin-top: 2em;
+}
