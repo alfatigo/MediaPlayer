@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/main.css">
-    <script defer src="Scripts/main.js"></script>
+    <script type="module" src="index.js" defer></script>
     <title>Media player</title>
 </head>
 <body>
     <main class="container">
         <video class="movie">
-            <source src="./assets/b_sunflower.mp4">
+            <source src="./assets/B_Sunflower.m4v">
         </video>
-        <button>Play/Pause</button>
+        <button id="Btn__playAndPause">Play/Pause</button>
+        <button id="Btn__muteAndUnmute">Mute/Unmute</button>
     </main>
 </body>
 </html>
